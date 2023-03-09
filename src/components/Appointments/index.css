@@ -1,0 +1,93 @@
+.appointment-main-bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  height: 100vh;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  height: 800px;
+  width: 800px;
+  border-radius: 15px;
+}
+.appointment-bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.form {
+  margin: 20px;
+}
+.heading {
+  font-size: 36px;
+  font-weight: 550;
+  font-family: 'Roboto';
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+.label {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  padding-bottom: 10px;
+}
+.name-input {
+  height: 35px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.image {
+  height: 250px;
+  width: 350px;
+  margin: 20px;
+}
+.add-btn {
+  height: 30px;
+  width: 70px;
+  border-radius: 7px;
+  background-color: #8b5cf6;
+  border-style: none;
+  font-size: 16px;
+  font-family: 'Roboto';
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.separator {
+  width: 80%;
+  margin: 20px;
+}
+.list-head-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.list-head {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  align-self: flex-start;
+}
+.button {
+  height: 30px;
+  width: 70px;
+  border-radius: 7px;
+  background-color: transparent;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+.appointment-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
